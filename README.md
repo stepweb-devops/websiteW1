@@ -2,7 +2,7 @@
 
 ```
 npm install
-npm start
+npm start1
 ```
 
 Hello World This is a Good PR
