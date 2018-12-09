@@ -1,0 +1,12 @@
+@import '../../styles/global.scss';
+
+.navigationLinks {
+    background-color: $navigationMobileBackgroundColor;
+    width: 100%;
+
+    @include tabletAndAbove {
+        background-color: $navigationDesktopBackgroundColor;
+        display: flex;
+        padding: 10px 0px;
+    }
+}

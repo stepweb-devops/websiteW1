@@ -1,0 +1,29 @@
+@import '../../styles/global.scss';
+
+.button {
+    background-color: $listenButtonBackgroundColor;
+    border: none;
+    border-radius: 2px;
+    color: $listenButtonFontColor;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &::-moz-focus-inner {
+        border: none;
+        outline: none;
+    }
+
+    &:disabled {
+        cursor: default;
+        opacity: .6;
+    }
+}
+
+.icon {
+    margin-left: 7px;
+}

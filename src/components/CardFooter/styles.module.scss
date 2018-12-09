@@ -1,0 +1,12 @@
+@import '../../styles/global.scss';
+
+.cardFooter {
+    background-color: $backgroundColor;
+    border: 2px solid $cardFooterBorderColor;
+    border-top: none;
+    color: $cardFooterFontColor;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 20px 30px;
+}

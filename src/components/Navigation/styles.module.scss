@@ -1,0 +1,35 @@
+@import '../../styles/global.scss';
+
+.arrowUp {
+    border-bottom: 20px solid $navigationContainerBackgroundColor;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+
+    @include tabletAndAbove {
+        display: none;
+    }
+}
+
+.navigationActive {
+    display: block;
+}
+
+.navigationContainer {
+    background-color: $navigationContainerBackgroundColor;
+    box-shadow: inset 0px 5px 5px 0px $navigationContainerShadowColor;
+    display: none;
+    padding-top: 10px;
+    position: relative;
+
+    @include desktopAndAbove {
+        background-color: transparent;
+        display: block;
+        margin-left: auto;
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,9 @@
+@import '../../styles/global.scss';
+
+.text {
+    color: $titleFontColor;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}

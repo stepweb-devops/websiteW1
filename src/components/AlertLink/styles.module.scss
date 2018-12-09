@@ -1,0 +1,30 @@
+@import '../../styles/global.scss';
+
+.alertCount {
+    align-items: center;
+    background-color: $alertCountBackgroundColor;
+    border-radius: 50px;
+    color: $alertCountTextColor;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    height: 15px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+
+.alertIcon {
+    font-size: 28px;
+}
+
+.iconContainer {
+    align-items: center;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    position: relative;
+    width: 38px;
+}

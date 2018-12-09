@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.active {
+    background-color: $bulletBackgroundColorActive;
+}
+
+.bullet {
+    background-color: $bulletBackgroundColor;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+}

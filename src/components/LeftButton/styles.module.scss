@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.leftButton {
+    align-items: center;
+    background: $leftButtonBackgroundColor;
+    border-radius: 50%;
+    color: $leftButtonIconColor;
+    display: flex;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+}

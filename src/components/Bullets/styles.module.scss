@@ -1,0 +1,14 @@
+@import '../../styles/global.scss';
+
+.bullet {
+    margin-right: 9px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.bullets {
+    display: flex;
+}
+

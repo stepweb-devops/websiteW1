@@ -1,0 +1,12 @@
+@import '../../styles/global.scss';
+
+.headerLink {
+    background-color: $headerLinkBackgroundColor;
+    color: $headerLinkTextColor;
+    font-family: $acuminPro;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

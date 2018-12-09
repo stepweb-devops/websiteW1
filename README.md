@@ -1,1 +1,6 @@
-# websiteW1
+# Desktop
+
+```
+npm install
+npm start
+```

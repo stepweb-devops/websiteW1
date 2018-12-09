@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.rightButton {
+    align-items: center;
+    background-color: $backgroundArrowButtonColor;
+    border-radius: 50%;
+    color: $iconArrowColor;
+    display: flex;
+    font-size: 32px;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+}

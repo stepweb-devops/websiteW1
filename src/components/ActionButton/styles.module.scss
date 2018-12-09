@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+
+.button {
+    background: $actionButtonBackgrounColor;
+    border: none;
+    border-radius: 2px;
+    color: $actionButtonTextColor;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 12px 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &::-moz-focus-inner {
+        border: none;
+        outline: none;
+    }
+
+    &:disabled {
+        cursor: default;
+        opacity: .6;
+    }
+}

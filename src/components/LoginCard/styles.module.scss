@@ -1,0 +1,51 @@
+@import '../../styles/global.scss';
+
+.actionButton {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.fogotPassword {
+    float: left;
+    margin: 15px auto;
+    text-align: left;
+    width: 100%;
+}
+
+.loginCard {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+.registerLink {
+    color: $checkboxTextColor;
+    display: flex;
+    font-family: $acuminPro;
+    font-size: 14px;
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+.registerLinkText {
+    margin: 0 5px;
+}
+
+.times {
+    color: $checkboxTextColor;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    margin-right: -20px;
+}
+
+.titleText {
+    margin: 15px auto 25px;
+}

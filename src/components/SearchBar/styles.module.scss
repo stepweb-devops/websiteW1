@@ -1,0 +1,29 @@
+@import '../../styles/global.scss';
+
+.container {
+    align-items: center;
+    background: $searchBarContainerColor;
+    display: flex;
+    height: 72px;
+    justify-content: flex-end;
+    width: 1280px;
+}
+
+.dropdown {
+    margin-right: 16px;
+}
+
+.searchButton {
+    float: right;
+    margin-left: 78px;
+    margin-right: 20px;
+}
+
+.text {
+    color: $searchBarTextColor;
+    font-family: $acuminPro;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform: uppercase;
+}

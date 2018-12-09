@@ -1,0 +1,41 @@
+@import '../../styles/global.scss';
+
+.container {
+    align-items: center;
+    background: $formSearchInputBackgroundColor;
+    border: 1px solid $formSearchInputBorderColor;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 370px;
+}
+
+.input {
+    background: $formSearchInputBackgroundColor;
+    border: none;
+    font-size: 14px;
+}
+
+.input::-webkit-input-placeholder {
+    color: $formSearchInputLeftContainerColor;
+}
+
+.leftIcon {
+    padding-right: 10px;
+}
+
+.leftSideContainer {
+    align-items: center;
+    color: $formSearchInputLeftContainerColor;
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+}
+
+.rightIcon {
+    color: $formSearchInputRightIconColor;
+    display: block;
+    font-size: 20px;
+    padding-left: 10px;
+}

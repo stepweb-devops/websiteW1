@@ -1,0 +1,11 @@
+@import '../../styles/global.scss';
+
+.email {
+    font-family: $acuminPro;
+    font-size: 15px;
+    padding: 15px 10px;
+}
+
+.hasError {
+    color: $errorColor;
+ }

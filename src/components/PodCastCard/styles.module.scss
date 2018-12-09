@@ -1,0 +1,14 @@
+@import '../../styles/global.scss';
+
+.container {
+    align-items: flex-end;
+    background: $podCastCardBackgroundColor;
+    display: flex;
+    height: 290px;
+    justify-content: flex-end;
+    width: 290px;
+}
+
+.listenButton {
+    margin: 0 13px 14px 0;
+}

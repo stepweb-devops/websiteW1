@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+
+.bullets {
+    margin: 0 26px;
+}
+
+.container {
+    width: 100%;
+}
+
+.footer {
+    height: 145px;
+    padding-top: 22px;
+    width: 1280px;
+}
+
+.sliderControl {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.gallery {
+    width: 1280px;
+}

@@ -1,0 +1,22 @@
+@import '../../styles/global.scss';
+
+.container {
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.divider {
+    align-items: center;
+    background: $horizontalDividerColor;
+    display: flex;
+    height: 2px;
+    justify-content: center;
+    width: 100%;
+}
+
+.label {
+    background: $backgroundColor;
+    color: $horizontalDividerLabelColor;
+    font-size: 18px;
+    padding: 0px 25px;
+}

@@ -1,0 +1,25 @@
+@import '../../styles/global.scss';
+
+.button {
+    background-color: $submitButtonBackgroundColor;
+    border: none;
+    border-radius: 6px;
+    color: $submitButtonFontColor;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 18px;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &::-moz-focus-inner {
+        border: none;
+        outline: none;
+    }
+
+    &:disabled {
+        cursor: default;
+        opacity: .6;
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../styles/global.scss';
+
+.hamburger {
+    border-right: 2px solid $headerBurgerBorderColor;
+
+    @include desktopAndAbove {
+        display: none;
+    }
+}
+
+.header {
+    align-items: center;
+    background-color: $headerBackgroundColor;
+    border-top: 5px solid $headerBorderColor;
+    box-shadow: 0 3px 6px $headerShadowColor;
+    display: flex;
+    height: 62px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.link {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.linkBorder {
+    border-left: 2px solid $headerBurgerBorderColor;
+    padding: 5px 15px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 15px;
+}
+
+.userPanel {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}

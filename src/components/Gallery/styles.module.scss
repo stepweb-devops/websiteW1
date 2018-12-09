@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+.gallery {
+    display: block;
+    overflow: hidden;
+}
+
+.slide {
+    flex-shrink: 0;
+    padding: 0 12px;
+    width: calc(100% / 3);
+}
+
+.slider {
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+    transition: 1s;
+}

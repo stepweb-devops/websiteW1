@@ -1,0 +1,22 @@
+@import '../../styles/global.scss';
+
+.button {
+    margin-bottom: 13px;
+    margin-right: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.cardTop {
+    align-items: flex-end;
+    background-color: $cardTopBackgroundColor;
+    display: flex;
+    height: 250px;
+    justify-content: flex-end;
+    width: 100%;
+}

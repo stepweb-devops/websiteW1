@@ -1,0 +1,30 @@
+@import '../../styles/global.scss';
+
+.icon {
+    font-size: 24px;
+    left: 25px;
+    position: absolute;
+    top: 4px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.linkedInButton {
+    align-items: center;
+    background-color: $linkedInButtonBackgroundColor;
+    border: none;
+    border-radius: 3px;
+    color: $linkedInButtonTextColor;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    line-height: 1;
+    padding: 0 25px;
+    position: relative;
+    text-transform: uppercase;
+    width: 310px;
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro'), url('/src/assets/fonts/AcuminPro/Acumin-RPro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Acumin Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Italic'), url('/src/assets/fonts/AcuminPro/Acumin-ItPro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Acumin Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold'), url('/src/assets/fonts/AcuminPro/Acumin-BdPro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Acumin Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold Italic'), url('/src/assets/fonts/AcuminPro/Acumin-BdItPro.woff') format('woff');
+}
+
+$sansSerif: sans-serif;
+$arial: Arial, $sansSerif;
+$acuminPro: 'Acumin Pro', $sansSerif;
+$acuminProItalic: 'Acumin Pro Italic', $sansSerif;
+$acuminProBold: 'Acumin Pro Bold', $sansSerif;
+$acuminProBoldItalic: 'Acumin Pro Bold Italic', $sansSerif;
+
+@mixin bodyText {
+    font-family: $arial;
+}
