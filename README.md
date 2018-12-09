@@ -2,5 +2,5 @@
 
 ```
 npm install
-npm start1
+npm start2
 ```
