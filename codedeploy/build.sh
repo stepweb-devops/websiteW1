@@ -1,5 +1,6 @@
 #/bin/bash
-buildpath=/build/latest
+buildpath=/home/sahil
+newbuild=/build/latest
 echo $PWD
 cd $buildpath && sudo npm install && sudo npm run build
-#sudo rm -r -f $buildpath && sudo mkdir -p $buildpath && sudo cp -r build/* $buildpath
+sudo rm -r -f $newbuild && sudo mkdir -p $newbuild && sudo cp -r $buildpath/* $newbuild
