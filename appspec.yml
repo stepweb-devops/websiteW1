@@ -1,0 +1,20 @@
+version: 1.0
+os: linux
+permission:
+        - object: codedeploy
+          pattern: "*.sh"
+          onwer: root
+          group: root
+          mode: 777
+          type:
+                  - files
+
+hooks:
+        BeforeInstall:
+                - location: codedeploy/beforebuild.sh
+        AfterInstall:
+                - location: codedeploy/build.sh
+        ApplicationServer:
+                - location: codedeploy/afterbuild.sh
+        ValidateService:
+                - location: codedeploy/deploy.sh
