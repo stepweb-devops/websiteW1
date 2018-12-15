@@ -1,5 +1,5 @@
 #/bin/bash
-buildpath=/home/sahil
+buildpath=/opt/build
 build=$buildpath/build
 newbuild=/build/latest
 echo $PWD
