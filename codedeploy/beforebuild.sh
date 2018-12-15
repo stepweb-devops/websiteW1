@@ -1,4 +1,5 @@
 #/bin/bash
+buildpath=/build/latest
 echo "$PWD"
-#sudo chmod -R 777 ../*
+cd $buildpath && sudo chmod -R 777 ../*
 sudo npm rebuild node-sass && sudo npm i
