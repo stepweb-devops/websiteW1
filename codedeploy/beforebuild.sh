@@ -1,4 +1,4 @@
 #/bin/bash
-pwd
+echo "$PWD"
 #sudo chmod -R 777 ../*
 sudo npm rebuild node-sass && sudo npm i
