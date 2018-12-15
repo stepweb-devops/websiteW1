@@ -19,7 +19,7 @@ hooks:
                 - location: codedeploy/beforebuild.sh
         AfterInstall:
                 - location: codedeploy/build.sh
-        ApplicationServer:
+        ApplicationStart:
                 - location: codedeploy/afterbuild.sh
         ValidateService:
                 - location: codedeploy/deploy.sh
